@@ -70,7 +70,7 @@ public class Tutorial_2 {
                     break;
             }
             System.out.println("1. Book a seat, 2. Display all, 3. Cancel a seat, 4. exit");
-            System.out.println("Please enter choice (press 8 to continue)");
+            System.out.println("Please enter choice");
             choice = kboard.nextInt();
             }
         while (choice !=4);
