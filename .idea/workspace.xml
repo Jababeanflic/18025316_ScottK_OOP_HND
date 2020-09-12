@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5faec16b-9aa2-426a-a572-dc4d9bb7b28f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AnyoneRight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuessingGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NumberToGuess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pontoon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/18025316_ScottK_OOP_HND/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/18025316_ScottK_OOP_HND/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pontoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pontoon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +114,7 @@
       <workItem from="1599637182397" duration="4705000" />
       <workItem from="1599747709179" duration="2630000" />
       <workItem from="1599841772173" duration="439000" />
-      <workItem from="1599911432879" duration="9523000" />
+      <workItem from="1599911432879" duration="9649000" />
     </task>
     <task id="LOCAL-00001" summary="Tutorial 2">
       <created>1599639867966</created>
@@ -158,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599841817068</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Guessing Game">
+      <created>1599931788322</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599931788322</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,10 +208,10 @@
     </state>
     <state width="1466" height="382" key="GridCell.Tab.0.right/-1920.203.1920.1057/2560.413.1680.1027/0.23.2560.1337@-1920.203.1920.1057" timestamp="1599666116469" />
     <state width="1466" height="229" key="GridCell.Tab.0.right/-1920.203.1920.1057/2560.413.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1599931757823" />
-    <state x="1338" y="431" key="Vcs.Push.Dialog.v2" timestamp="1599841820215">
+    <state x="1338" y="431" key="Vcs.Push.Dialog.v2" timestamp="1599931795808">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1338" y="431" key="Vcs.Push.Dialog.v2/-1920.203.1920.1057/2560.413.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1599841820215" />
+    <state x="1338" y="431" key="Vcs.Push.Dialog.v2/-1920.203.1920.1057/2560.413.1680.1027/0.23.2560.1337@0.23.2560.1337" timestamp="1599931795808" />
     <state x="1182" y="290" width="1057" height="781" key="dock-window-1" timestamp="1599931779929">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
