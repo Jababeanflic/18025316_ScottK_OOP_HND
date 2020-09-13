@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class Tutorial_1_Additional {
 
-    static Scanner kboard = new Scanner(System.in); // Scanner used in multiple methods
-
     public static void statistic(int gamesWon, int gamesPlayed) { // Method to calculate win percent
 
         System.out.println("Games played: " + gamesPlayed);
@@ -49,6 +47,7 @@ public class Tutorial_1_Additional {
 
     public static void main(String[] args) {
 
+        Scanner kboard = new Scanner(System.in);
         int[][] totalCardsDrawn = new int[11][1]; // needs to be 11 as cards go to 10
         String choice;
         boolean PlayGame;
