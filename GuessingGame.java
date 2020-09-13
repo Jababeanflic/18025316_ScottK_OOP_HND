@@ -1,14 +1,14 @@
 public class GuessingGame {
-    Player p1;
-    Player p2;  // Player variables declared
-    Player p3;
+    NumberToGuess p1;
+    NumberToGuess p2;  // Player variables declared
+    NumberToGuess p3;
     NumberToGuess AI;
 
 
     public void startGame() {
-        p1 = new Player();
-        p2 = new Player();     // player objects created
-        p3 = new Player();
+        p1 = new NumberToGuess();
+        p2 = new NumberToGuess();     // player objects created
+        p3 = new NumberToGuess();
         AI = new NumberToGuess();
 
         int NumberToGuess;
