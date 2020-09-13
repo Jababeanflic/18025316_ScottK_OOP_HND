@@ -4,7 +4,17 @@ public class Tutorial_1_Additional {
 
     static Scanner kboard = new Scanner(System.in);
 
+    public static void statistic(int gamesWon, int gamesPlayed) {
+
+        System.out.println("Games played: "+gamesPlayed);
+        System.out.println("Games won: "+gamesWon);
+        int winPercent = gamesWon*100/gamesPlayed;
+        System.out.println("Percentage of games won: " +winPercent+ "%");
+    }
+
     public static void totalCards(int[][] cardsDrawn) {
+
+        System.out.println("Frequency of each card drawn");
 
         for (int i = 1; i < cardsDrawn.length; i++) {
             System.out.println("Number of time card number " + i + " was drawn: " + cardsDrawn[i][0]);
@@ -47,10 +57,10 @@ public class Tutorial_1_Additional {
         int newCard;
         int total;
         int dealer;
-        int cardCount=2;
-        int gamesPlayed=1; //To record number of games played
+        int cardCount = 2;
+        int gamesPlayed = 1; //To record number of games played
+        int gamesWon = 0;
         int[][] totalCards = new int[0][];
-        int gamesWon=0;
 
 
         do {  // Player can choose to play again
@@ -84,6 +94,7 @@ public class Tutorial_1_Additional {
             if (choice.equalsIgnoreCase("n")) {
                 if (total > dealer) {
                     System.out.println("You have won with a total of " + total + " Dealer has " + dealer);
+                    gamesWon++; // track games one
                 } else {
                     System.out.println("You have lost with a total of " + total + " Dealer has " + dealer);
                 }
@@ -102,7 +113,8 @@ public class Tutorial_1_Additional {
             }
         } while (PlayGame);
 
-        totalCards(totalCards); //call total number of cards drawn for all games
+        statistic(gamesWon, gamesPlayed); // call method statistics to calculate win percent pass gamesWon and games played total
+        totalCards(totalCards); //call method total number of cards drawn for all games and pass array of cards already drawn
     }
 }
 
