@@ -48,7 +48,7 @@ public class Tutorial_1_Additional {
     public static void main(String[] args) {
 
         Scanner kboard = new Scanner(System.in);
-        int[][] totalCardsDrawn = new int[11][1]; // needs to be 11 as cards go to 10
+        int[][] totalCardsDrawn = new int[11][1]; // Array in Array, 1st index holds card second number of times its been drawn
         String choice;
         boolean PlayGame;
         int card1;
